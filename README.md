@@ -14,7 +14,7 @@
 
 ## 📋 系統需求
 
-- Google Colab 帳號(建議使用 Colab Pro 以獲得更好的 GPU)
+- Google Colab 帳號(必須使用 Colab Pro 否則無法安裝)
 - Google Drive 空間(至少 10GB 以上)
 - Cloudflare 帳號(用於設定 Tunnel)
 
@@ -155,7 +155,7 @@ WebUI 預設會啟用 API 端點,可以透過 HTTP 請求來生成圖片。
 ## 🐛 常見問題
 
 **Q: 顯示記憶體不足錯誤?**
-A: 嘗試減少圖片尺寸或 batch size,或升級到 Colab Pro。
+A: 嘗試減少圖片尺寸或 batch size,或使用更強大的GPU。
 
 **Q: Cloudflare Tunnel 無法連線?**
 A: 重新執行啟動區塊,或檢查網路連線。
